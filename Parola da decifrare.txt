@@ -1,0 +1,28 @@
+Esercizio di oggi: Crittografia. 
+
+Dato un messaggio cifrato cercare di trovare il testo in chiaro: 
+
+Messaggio cifrato: "HSNFRGH"
+
+Il seguente testo è cifrato tramite l'uso del cifrario di Cesare. 
+Il funzionamento del cifrario di Cesare è molto semplice. 
+Si sceglie un numero fisso, detto chiave, che rappresenta il numero di posizioni di cui ogni lettera del messaggio originale deve essere spostata nell'alfabeto. 
+Ad esempio, con uno spostamento di 3 posizioni:
+● A diventa D 
+● B diventa E 
+● C diventa F E così via, fino alla fine dell'alfabeto. Quando si arriva alla lettera Z, si ricomincia da A.
+
+Nel nostro caso, tramite il processo inverso per decifrare e spostandoci di 3 posizioni indietro per ogni lettera:
+● H diventa E
+● S diventa P
+● N diventa I
+● F diventa C
+● R diventa O
+● G diventa D
+● H diventa E
+
+Quindi il nostro testo decifrato è: "EPICODE"
+
+
+
+
